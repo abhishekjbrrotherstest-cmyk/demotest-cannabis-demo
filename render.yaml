@@ -19,6 +19,7 @@ services:
     plan: free
     region: oregon
     branch: main
+    rootDir: backend          # monorepo: the API lives in /backend
     buildCommand: npm ci
     startCommand: npm start
     healthCheckPath: /api/health
@@ -28,19 +29,29 @@ services:
       - key: NODE_ENV
         value: production
       # Render injects PORT automatically — do not set it.
+      #
+      # The four DB values below are prompted by Render because every managed
+      # MySQL provider differs (Aiven: random port + db "defaultdb";
+      #  TiDB Cloud: 4000; self-hosted: 3306). sync:false = Render asks you.
       - key: DB_HOST
         sync: false
       - key: DB_PORT
-        value: "3306"
+        sync: false
       - key: DB_NAME
-        value: demotest_cannabis
+        sync: false
       - key: DB_USER
         sync: false
       - key: DB_PASSWORD
-        generateValue: true
-      # Set DB_SSL=true (and DB_SSL_CA) if your MySQL provider requires TLS
+        sync: false
+      # Hosted MySQL should always run over TLS. If your provider has no CA
+      # certificate the pool falls back to rejectUnauthorized:false.
       - key: DB_SSL
-        value: "false"
+        value: "true"
+      # Optional: paste your provider's PEM CA cert (Aiven shows one in the
+      # service's "Connection info" tab). Without it, TLS is still encrypted
+      # but the cert is not verified.
+      - key: DB_SSL_CA
+        sync: false
       - key: JWT_SECRET
         generateValue: true
       - key: JWT_EXPIRES_IN
@@ -60,6 +71,7 @@ services:
     runtime: static
     plan: free
     branch: main
+    rootDir: frontend         # monorepo: the Vite app lives in /frontend
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist
     # SPA deep links (/shop/pittsburgh, /admin/menus, …) must serve index.html
