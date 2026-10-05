@@ -5,6 +5,9 @@
 # (VITE_API_URL), and the API needs the site's URL at RUN time (CLIENT_URL).
 # Because both URLs are derived from the service names below, they are stable.
 #
+# The repo is PRIVATE, so the first Blueprint deploy needs "Repository Access"
+# granted in Render Settings -> Repositories (otherwise the clone fails).
+#
 # Steps:
 #   1. Push this repo to GitHub/GitLab.
 #   2. Render Dashboard -> New -> Blueprint -> select the repo (Render reads this file).
