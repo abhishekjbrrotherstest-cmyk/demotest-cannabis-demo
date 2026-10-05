@@ -1,0 +1,75 @@
+# Render Blueprint — DemoTest Cannabis Co.
+# Docs: https://render.com/docs/blueprint-spec
+#
+# Deploy order matters: the static site needs the API's URL at BUILD time
+# (VITE_API_URL), and the API needs the site's URL at RUN time (CLIENT_URL).
+# Because both URLs are derived from the service names below, they are stable.
+#
+# Steps:
+#   1. Push this repo to GitHub/GitLab.
+#   2. Render Dashboard -> New -> Blueprint -> select the repo (Render reads this file).
+#   3. Fill in every "sync: false" value (Render prompts; nothing is secret here
+#      except JWT_SECRET / DB_PASSWORD, which you generate).
+
+services:
+  # ---------------------------------------------------------------- API
+  - type: web
+    name: demotest-api
+    runtime: node
+    plan: free
+    region: oregon
+    branch: main
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/health
+    # Free instances sleep after 15 min idle and wake on the next request
+    # (~30-60s cold start). Use plan: starter for zero cold starts.
+    envVars:
+      - key: NODE_ENV
+        value: production
+      # Render injects PORT automatically — do not set it.
+      - key: DB_HOST
+        sync: false
+      - key: DB_PORT
+        value: "3306"
+      - key: DB_NAME
+        value: demotest_cannabis
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        generateValue: true
+      # Set DB_SSL=true (and DB_SSL_CA) if your MySQL provider requires TLS
+      - key: DB_SSL
+        value: "false"
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      # Static site origin (from the second service below)
+      - key: CLIENT_URL
+        value: https://demotest-web.onrender.com
+      # Use "none" only if you move the frontend off *.onrender.com
+      - key: COOKIE_SAMESITE
+        value: lax
+      - key: DUTCHIE_EMBED_URL
+        value: https://dutchie.com/embedded-menu/ct-clone-canabiss-meriden-med-rec
+
+  # ------------------------------------------------------- Frontend (static)
+  - type: web
+    name: demotest-web
+    runtime: static
+    plan: free
+    branch: main
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    # SPA deep links (/shop/pittsburgh, /admin/menus, …) must serve index.html
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      # Baked into the bundle at build time — must be the API's public URL
+      - key: VITE_API_URL
+        value: https://demotest-api.onrender.com/api
+      - key: VITE_DUTCHIE_EMBED_URL
+        value: https://dutchie.com/embedded-menu/ct-clone-canabiss-meriden-med-rec

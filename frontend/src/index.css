@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream text-brand-800 antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+  ::selection {
+    background-color: #d4a373;
+    color: #1b4332;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  .card-base {
+    @apply rounded-2xl border border-brand-100 bg-white shadow-card;
+  }
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.2em];
+  }
+  .link-underline {
+    @apply inline-flex items-center gap-1 font-semibold text-brand-700 underline decoration-gold-400 underline-offset-4 transition hover:text-brand-500 hover:decoration-gold-600;
+  }
+  .btn-base {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-xl px-5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-500 focus-visible:ring-offset-2;
+  }
+  .field {
+    @apply min-h-11 w-full rounded-xl border border-brand-100 bg-white px-3.5 text-sm text-brand-800 placeholder:text-brand-400 focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-gold-400/60;
+  }
+  .label {
+    @apply mb-1.5 block text-sm font-semibold text-brand-700;
+  }
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .cms-prose {
+    @apply leading-relaxed text-brand-800/90;
+  }
+  .cms-prose h2 {
+    @apply font-display mt-10 mb-3 text-2xl text-brand-800;
+    font-family: 'Fraunces', Georgia, serif;
+  }
+  .cms-prose h3 {
+    @apply mt-8 mb-2 text-xl text-brand-800;
+    font-family: 'Fraunces', Georgia, serif;
+  }
+  .cms-prose p {
+    @apply mb-4;
+  }
+  .cms-prose ul {
+    @apply mb-4 list-disc space-y-1 pl-6;
+  }
+  .cms-prose a {
+    @apply text-brand-700 underline decoration-gold-400 underline-offset-4;
+  }
+}

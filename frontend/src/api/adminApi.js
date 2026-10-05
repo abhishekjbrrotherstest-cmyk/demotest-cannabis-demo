@@ -1,0 +1,78 @@
+import api from './axios';
+
+export const adminApi = {
+  dashboard: () => api.get('/admin/dashboard'),
+  home: {
+    listBanners: () => api.get('/admin/home/banners'),
+    getBanner: (id) => api.get(`/admin/home/banners/${id}`),
+    createBanner: (data) => api.post('/admin/home/banners', data),
+    updateBanner: (id, data) => api.put(`/admin/home/banners/${id}`, data),
+    removeBanner: (id) => api.delete(`/admin/home/banners/${id}`),
+    listSections: () => api.get('/admin/home/sections'),
+    getSection: (id) => api.get(`/admin/home/sections/${id}`),
+    createSection: (data) => api.post('/admin/home/sections', data),
+    updateSection: (id, data) => api.put(`/admin/home/sections/${id}`, data),
+    removeSection: (id) => api.delete(`/admin/home/sections/${id}`),
+  },
+  about: {
+    list: () => api.get('/admin/about'),
+    get: (id) => api.get(`/admin/about/${id}`),
+    create: (data) => api.post('/admin/about', data),
+    update: (id, data) => api.put(`/admin/about/${id}`, data),
+    remove: (id) => api.delete(`/admin/about/${id}`),
+  },
+  pages: {
+    list: () => api.get('/admin/pages'),
+    get: (id) => api.get(`/admin/pages/${id}`),
+    create: (data) => api.post('/admin/pages', data),
+    update: (id, data) => api.put(`/admin/pages/${id}`, data),
+    remove: (id) => api.delete(`/admin/pages/${id}`),
+    publish: (id, status) => api.post(`/admin/pages/${id}/publish`, { status }),
+  },
+  stores: {
+    get: (id) => api.get(`/admin/stores/${id}`),
+    create: (data) => api.post('/admin/stores', data),
+    update: (id, data) => api.put(`/admin/stores/${id}`, data),
+    remove: (id) => api.delete(`/admin/stores/${id}`),
+  },
+  blog: {
+    list: () => api.get('/admin/blog'),
+    get: (id) => api.get(`/admin/blog/${id}`),
+    create: (data) => api.post('/admin/blog', data),
+    update: (id, data) => api.put(`/admin/blog/${id}`, data),
+    remove: (id) => api.delete(`/admin/blog/${id}`),
+  },
+  faqs: {
+    list: () => api.get('/admin/faqs'),
+    get: (id) => api.get(`/admin/faqs/${id}`),
+    create: (data) => api.post('/admin/faqs', data),
+    update: (id, data) => api.put(`/admin/faqs/${id}`, data),
+    remove: (id) => api.delete(`/admin/faqs/${id}`),
+  },
+  careers: {
+    list: () => api.get('/admin/careers'),
+    get: (id) => api.get(`/admin/careers/${id}`),
+    create: (data) => api.post('/admin/careers', data),
+    update: (id, data) => api.put(`/admin/careers/${id}`, data),
+    remove: (id) => api.delete(`/admin/careers/${id}`),
+  },
+  menus: {
+    list: () => api.get('/admin/menus'),
+    get: (id) => api.get(`/admin/menus/${id}`),
+    create: (data) => api.post('/admin/menus', data),
+    update: (id, data) => api.put(`/admin/menus/${id}`, data),
+    remove: (id) => api.delete(`/admin/menus/${id}`),
+    createItem: (menuId, data) => api.post(`/admin/menus/${menuId}/items`, data),
+    updateItem: (id, data) => api.put(`/admin/menu-items/${id}`, data),
+    removeItem: (id) => api.delete(`/admin/menu-items/${id}`),
+    moveItem: (id, direction) => api.post(`/admin/menu-items/${id}/move`, { direction }),
+  },
+  contact: {
+    list: () => api.get('/admin/contact'),
+    remove: (id) => api.delete(`/admin/contact/${id}`),
+  },
+  users: {
+    list: () => api.get('/admin/users'),
+    setStatus: (id, status) => api.put(`/admin/users/${id}/status`, { status }),
+  },
+};

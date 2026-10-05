@@ -1,0 +1,552 @@
+[
+  {
+    "id": "prd_001",
+    "name": "Blue Dream",
+    "brand": "DemoTest Farms",
+    "category": "Flower",
+    "subcategory": "Sativa",
+    "thc": "22.4%",
+    "cbd": "0.1%",
+    "price": 45,
+    "weight": "3.5g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "A balanced sativa-dominant strain with sweet blueberry aromas and clear, creative effects.",
+    "terpenes": [
+      "Myrcene",
+      "Pinene",
+      "Caryophyllene"
+    ]
+  },
+  {
+    "id": "prd_002",
+    "name": "GG #4",
+    "brand": "DemoTest Farms",
+    "category": "Flower",
+    "subcategory": "Hybrid",
+    "thc": "26.1%",
+    "cbd": "0.2%",
+    "price": 50,
+    "weight": "3.5g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Pungent, diesel-forward hybrid loved for heavy-body relaxation.",
+    "terpenes": [
+      "Caryophyllene",
+      "Limonene",
+      "Humulene"
+    ]
+  },
+  {
+    "id": "prd_003",
+    "name": "Sour Diesel",
+    "brand": "DemoTest Farms",
+    "category": "Flower",
+    "subcategory": "Sativa",
+    "thc": "24.7%",
+    "cbd": "0.1%",
+    "price": 48,
+    "weight": "3.5g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Classic sour, gassy sativa with an energizing, euphoric onset.",
+    "terpenes": [
+      "Caryophyllene",
+      "Limonene",
+      "Myrcene"
+    ]
+  },
+  {
+    "id": "prd_004",
+    "name": "Granddaddy Purple",
+    "brand": "DemoTest Farms",
+    "category": "Flower",
+    "subcategory": "Indica",
+    "thc": "21.9%",
+    "cbd": "0.1%",
+    "price": 46,
+    "weight": "3.5g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Grape-and-berry indica ideal for evening wind-down.",
+    "terpenes": [
+      "Myrcene",
+      "Caryophyllene",
+      "Pinene"
+    ]
+  },
+  {
+    "id": "prd_005",
+    "name": "Northern Lights",
+    "brand": "DemoTest Farms",
+    "category": "Flower",
+    "subcategory": "Indica",
+    "thc": "20.3%",
+    "cbd": "0.2%",
+    "price": 42,
+    "weight": "3.5g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Sweet, earthy classic cherished for deep relaxation and calm.",
+    "terpenes": [
+      "Myrcene",
+      "Caryophyllene",
+      "Linalool"
+    ]
+  },
+  {
+    "id": "prd_006",
+    "name": "Pineapple Express",
+    "brand": "DemoTest Farms",
+    "category": "Flower",
+    "subcategory": "Hybrid",
+    "thc": "19.8%",
+    "cbd": "0.1%",
+    "price": 44,
+    "weight": "3.5g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Tropical, sweet hybrid with a bright, mellow buzz.",
+    "terpenes": [
+      "Limonene",
+      "Myrcene",
+      "Pinene"
+    ]
+  },
+  {
+    "id": "prd_007",
+    "name": "Blue Dream Pre-Roll",
+    "brand": "DemoTest Farms",
+    "category": "Pre-Roll",
+    "subcategory": "Pre-Roll",
+    "thc": "22.4%",
+    "cbd": "0.1%",
+    "price": 12,
+    "weight": "1g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Single 1g pre-roll of Blue Dream flower, ready to go.",
+    "terpenes": [
+      "Myrcene",
+      "Pinene",
+      "Caryophyllene"
+    ]
+  },
+  {
+    "id": "prd_008",
+    "name": "GG #4 Pre-Roll 3-Pack",
+    "brand": "DemoTest Farms",
+    "category": "Pre-Roll",
+    "subcategory": "Pre-Roll",
+    "thc": "26.1%",
+    "cbd": "0.2%",
+    "price": 32,
+    "weight": "3 x 0.5g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Three half-gram pre-rolls of the legendary GG #4.",
+    "terpenes": [
+      "Caryophyllene",
+      "Limonene",
+      "Humulene"
+    ]
+  },
+  {
+    "id": "prd_009",
+    "name": "Sour Diesel Pre-Roll",
+    "brand": "DemoTest Farms",
+    "category": "Pre-Roll",
+    "subcategory": "Pre-Roll",
+    "thc": "24.7%",
+    "cbd": "0.1%",
+    "price": 13,
+    "weight": "1g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Fuel-scented sativa pre-roll for an uplifted day.",
+    "terpenes": [
+      "Caryophyllene",
+      "Limonene",
+      "Myrcene"
+    ]
+  },
+  {
+    "id": "prd_010",
+    "name": "Infused Doob Tube 2-Pack",
+    "brand": "DemoTest Farms",
+    "category": "Pre-Roll",
+    "subcategory": "Infused",
+    "thc": "31.2%",
+    "cbd": "0.1%",
+    "price": 20,
+    "weight": "2 x 1g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Two kief-infused pre-rolls for an extra-potent session.",
+    "terpenes": [
+      "Caryophyllene",
+      "Limonene",
+      "Myrcene"
+    ]
+  },
+  {
+    "id": "prd_011",
+    "name": "Berry Bliss 1g Cartridge",
+    "brand": "DemoTest Labs",
+    "category": "Vape",
+    "subcategory": "Cartridge",
+    "thc": "84.6%",
+    "cbd": "0.0%",
+    "price": 55,
+    "weight": "1g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Distillate cartridge with sweet berry terpenes.",
+    "terpenes": [
+      "Limonene",
+      "Myrcene",
+      "Linalool"
+    ]
+  },
+  {
+    "id": "prd_012",
+    "name": "Citrus Haze 1g Cartridge",
+    "brand": "DemoTest Labs",
+    "category": "Vape",
+    "subcategory": "Cartridge",
+    "thc": "86.1%",
+    "cbd": "0.0%",
+    "price": 55,
+    "weight": "1g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Zesty citrus distillate for a bright, uplifting experience.",
+    "terpenes": [
+      "Limonene",
+      "Terpinolene"
+    ]
+  },
+  {
+    "id": "prd_013",
+    "name": "Calm Night 0.5g Cartridge",
+    "brand": "DemoTest Labs",
+    "category": "Vape",
+    "subcategory": "Cartridge",
+    "thc": "82.3%",
+    "cbd": "1.2%",
+    "price": 35,
+    "weight": "0.5g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Low-THC distillate with lavender-forward terpenes for evenings.",
+    "terpenes": [
+      "Linalool",
+      "Myrcene"
+    ]
+  },
+  {
+    "id": "prd_014",
+    "name": "Full Spectrum Vape Pen",
+    "brand": "DemoTest Labs",
+    "category": "Vape",
+    "subcategory": "Pen",
+    "thc": "78.9%",
+    "cbd": "0.3%",
+    "price": 40,
+    "weight": "0.5g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Disposable full-spectrum vape pen with classic skunk aroma.",
+    "terpenes": [
+      "Myrcene",
+      "Caryophyllene",
+      "Pinene"
+    ]
+  },
+  {
+    "id": "prd_015",
+    "name": "Live Resin Cartridge",
+    "brand": "DemoTest Labs",
+    "category": "Vape",
+    "subcategory": "Resin",
+    "thc": "88.2%",
+    "cbd": "0.0%",
+    "price": 60,
+    "weight": "1g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Solventless-style live resin with robust, true-to-plant flavor.",
+    "terpenes": [
+      "Limonene",
+      "Caryophyllene",
+      "Pinene"
+    ]
+  },
+  {
+    "id": "prd_016",
+    "name": "Golden Sugar Wax",
+    "brand": "DemoTest Concentrates",
+    "category": "Concentrate",
+    "subcategory": "Sugar",
+    "thc": "79.4%",
+    "cbd": "0.4%",
+    "price": 48,
+    "weight": "1g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Glossy, terpene-rich sugar wax for dabbing or vaporizing.",
+    "terpenes": [
+      "Myrcene",
+      "Limonene",
+      "Caryophyllene"
+    ]
+  },
+  {
+    "id": "prd_017",
+    "name": "Live Badder",
+    "brand": "DemoTest Concentrates",
+    "category": "Concentrate",
+    "subcategory": "Badder",
+    "thc": "83.1%",
+    "cbd": "0.2%",
+    "price": 65,
+    "weight": "1g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Whipped, saucey live badder with a full spectrum of terpenes.",
+    "terpenes": [
+      "Limnonene",
+      "Caryophyllene",
+      "Humulene"
+    ]
+  },
+  {
+    "id": "prd_018",
+    "name": "Diamond Sauce",
+    "brand": "DemoTest Concentrates",
+    "category": "Concentrate",
+    "subcategory": "Diamonds",
+    "thc": "90.8%",
+    "cbd": "0.1%",
+    "price": 72,
+    "weight": "1g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "THCa diamonds suspended in terpene-rich sauce.",
+    "terpenes": [
+      "Myrcene",
+      "Limonene",
+      "Pinene"
+    ]
+  },
+  {
+    "id": "prd_019",
+    "name": "Rosin Press 1g",
+    "brand": "DemoTest Concentrates",
+    "category": "Concentrate",
+    "subcategory": "Rosin",
+    "thc": "76.5%",
+    "cbd": "0.5%",
+    "price": 88,
+    "weight": "1g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Heat-pressed solventless rosin with clean, flavorful vapor.",
+    "terpenes": [
+      "Limonene",
+      "Myrcene",
+      "Caryophyllene"
+    ]
+  },
+  {
+    "id": "prd_020",
+    "name": "Cherry RSO Syringe",
+    "brand": "DemoTest Concentrates",
+    "category": "Concentrate",
+    "subcategory": "RSO",
+    "thc": "70.2%",
+    "cbd": "2.0%",
+    "price": 40,
+    "weight": "1g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Full-extract RSO for oral dosing — start low and go slow.",
+    "terpenes": [
+      "Myrcene",
+      "Caryophyllene"
+    ]
+  },
+  {
+    "id": "prd_021",
+    "name": "Sour Gummies 10-Pack",
+    "brand": "DemoTest Edibles",
+    "category": "Edible",
+    "subcategory": "Gummy",
+    "thc": "100mg",
+    "cbd": "0mg",
+    "price": 25,
+    "weight": "10 x 10mg",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Ten 10mg sour gummies for precise, tasty dosing.",
+    "terpenes": [
+      "N/A"
+    ]
+  },
+  {
+    "id": "prd_022",
+    "name": "Dark Chocolate Bar",
+    "brand": "DemoTest Edibles",
+    "category": "Edible",
+    "subcategory": "Chocolate",
+    "thc": "100mg",
+    "cbd": "0mg",
+    "price": 28,
+    "weight": "100mg / 90g",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Smooth 60% dark chocolate infused with 100mg THC.",
+    "terpenes": [
+      "N/A"
+    ]
+  },
+  {
+    "id": "prd_023",
+    "name": "Mint THC Capsules",
+    "brand": "DemoTest Edibles",
+    "category": "Edible",
+    "subcategory": "Capsule",
+    "thc": "50mg",
+    "cbd": "0mg",
+    "price": 30,
+    "weight": "10 x 5mg",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Discreet 5mg capsules with a hint of mint for easy swallowing.",
+    "terpenes": [
+      "N/A"
+    ]
+  },
+  {
+    "id": "prd_024",
+    "name": "CBD:THC Calm Tarts",
+    "brand": "DemoTest Edibles",
+    "category": "Edible",
+    "subcategory": "Lozenge",
+    "thc": "50mg",
+    "cbd": "50mg",
+    "price": 22,
+    "weight": "10 x 5mg/5mg",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Balanced 1:1 lozenges for gentle daytime relief.",
+    "terpenes": [
+      "N/A"
+    ]
+  },
+  {
+    "id": "prd_025",
+    "name": "Sleep Softgels",
+    "brand": "DemoTest Edibles",
+    "category": "Edible",
+    "subcategory": "Softgel",
+    "thc": "25mg",
+    "cbd": "50mg",
+    "price": 35,
+    "weight": "10 capsules",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "High-CBD 1:2 softgels blended with herbal sleep botanicals.",
+    "terpenes": [
+      "N/A"
+    ]
+  },
+  {
+    "id": "prd_026",
+    "name": "Relief Tincture 1:1",
+    "brand": "DemoTest Wellness",
+    "category": "Tincture",
+    "subcategory": "Balanced",
+    "thc": "500mg",
+    "cbd": "500mg",
+    "price": 55,
+    "weight": "30ml",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Balanced 1:1 full-spectrum tincture in MCT oil with mint.",
+    "terpenes": [
+      "Myrcene",
+      "Limonene"
+    ]
+  },
+  {
+    "id": "prd_027",
+    "name": "Focus Day Tincture",
+    "brand": "DemoTest Wellness",
+    "category": "Tincture",
+    "subcategory": "THC",
+    "thc": "750mg",
+    "cbd": "0mg",
+    "price": 60,
+    "weight": "30ml",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Sativa-leaning THC tincture with coffee and citrus notes.",
+    "terpenes": [
+      "Limonene",
+      "Terpinolene",
+      "Pinene"
+    ]
+  },
+  {
+    "id": "prd_028",
+    "name": "Body Comfort Balm",
+    "brand": "DemoTest Wellness",
+    "category": "Topical",
+    "subcategory": "Balm",
+    "thc": "100mg",
+    "cbd": "250mg",
+    "price": 40,
+    "weight": "60ml",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Fast-absorbing balm with CBD and menthol for sore muscles.",
+    "terpenes": [
+      "N/A"
+    ]
+  },
+  {
+    "id": "prd_029",
+    "name": "Recovery Transdermal Patch",
+    "brand": "DemoTest Wellness",
+    "category": "Topical",
+    "subcategory": "Patch",
+    "thc": "20mg",
+    "cbd": "40mg",
+    "price": 18,
+    "weight": "1 patch",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "12-hour transdermal patch for steady, localized relief.",
+    "terpenes": [
+      "N/A"
+    ]
+  },
+  {
+    "id": "prd_030",
+    "name": "Calming Body Oil",
+    "brand": "DemoTest Wellness",
+    "category": "Topical",
+    "subcategory": "Oil",
+    "thc": "50mg",
+    "cbd": "200mg",
+    "price": 45,
+    "weight": "120ml",
+    "image": "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=600&q=80",
+    "inStock": true,
+    "description": "Lightweight massage oil with lavender for evening relief.",
+    "terpenes": [
+      "Linalool"
+    ]
+  }
+]
