@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
-import AgeGate from './AgeGate';
 import CartDrawer from '../shop/CartDrawer';
 import { useCart } from '../../context/CartContext';
 import { MenusProvider } from '../../context/MenusContext';
@@ -39,7 +38,6 @@ export default function Layout() {
           <Outlet />
         </main>
         <Footer />
-        <AgeGate />
         <CartDrawer open={cartOpen} onClose={() => setCartOpen(false)} />
       </div>
     </MenusProvider>
