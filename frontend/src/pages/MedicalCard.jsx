@@ -13,7 +13,7 @@ const STEPS = [
 ];
 
 const FAQS = [
-  { q: 'Who is eligible?', a: 'PA residents 18+ with a qualifying condition certified by a registered physician can apply. Minors may qualify with a parent or guardian as caregiver.' },
+  { q: 'Who is eligible?', a: 'PA residents 21+ with a qualifying condition certified by a registered physician can apply. Minors may qualify with a parent or guardian as caregiver.' },
   { q: 'How much does it cost?', a: 'The physician certification is a private cost usually between $100–$250. The state registration fee is $50 per year (with discounts for qualifying individuals).' },
   { q: 'Can I use my card out of state?', a: 'No. Pennsylvania does not recognize other state medical programs, and other states do not recognize PA cards.' },
 ];

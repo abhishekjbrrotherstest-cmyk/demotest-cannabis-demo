@@ -18,7 +18,7 @@ const DOCS = {
     updated: 'January 1, 2026',
     body: [
       'DemoTest Cannabis Co. is a fictional, demonstration-only brand. Nothing on this site constitutes medical advice, nor an offer to sell cannabis.',
-      'You must be 18 or older and hold a valid Pennsylvania medical marijuana card to use this site, matching the demo age gate.',
+      'You must be 21 or older and hold a valid Pennsylvania medical marijuana card to use this site, matching the demo age gate.',
       'All product listings in the preview menu are simulated placeholders. Dutchie checkouts do not process real orders from this demo.',
       'Use of the admin area is limited to the demo credentials provided in the README. All administrative actions are recorded to the audit log.',
     ],

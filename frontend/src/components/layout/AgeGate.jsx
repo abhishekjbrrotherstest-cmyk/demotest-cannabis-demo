@@ -15,14 +15,14 @@ export default function AgeGate() {
           <ShieldAlert className="h-7 w-7" />
         </span>
         <p className="eyebrow mt-5 text-gold-600">Age Verification</p>
-        <h2 className="mt-2 text-2xl text-brand-800">Are you 18 or older?</h2>
+        <h2 className="mt-2 text-2xl text-brand-800">Are you 21 or older?</h2>
         <p className="mt-3 text-sm leading-relaxed text-brand-700/75">
-          You must be <strong>18 years or older</strong> and hold a <strong>valid Pennsylvania medical
+          You must be <strong>21 years or older</strong> and hold a <strong>valid Pennsylvania medical
           marijuana card</strong> to view this site. This is a demo project.
         </p>
         <div className="mt-7 flex flex-col gap-3">
           <Button variant="secondary" size="lg" onClick={verify}>
-            Yes, I am 18 or older
+            Yes, I am 21 or older
           </Button>
           <a
             href="https://www.google.com"

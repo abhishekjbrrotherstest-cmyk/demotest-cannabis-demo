@@ -226,7 +226,7 @@ const BLOG_POSTS = [
 ];
 
 const FAQS = [
-  { question: 'Who can purchase medical cannabis in Pennsylvania?', answer: 'Any resident 18 or older (21+ for flower) with a valid Pennsylvania medical marijuana card issued by the PA DOH.', category: 'Medical Card', display_order: 1 },
+  { question: 'Who can purchase medical cannabis in Pennsylvania?', answer: 'Any resident 21 or older with a valid Pennsylvania medical marijuana card issued by the PA DOH.', category: 'Medical Card', display_order: 1 },
   { question: 'How do I get a medical marijuana card?', answer: 'Get certified by a registered physician, then register with the Pennsylvania Department of Health and pay the fee. Your card arrives by mail in about 7-14 days.', category: 'Medical Card', display_order: 2 },
   { question: 'Can I use an out-of-state medical card in Pennsylvania?', answer: 'No. Pennsylvania does not currently recognize out-of-state cards. You need a PA-issued card to purchase here.', category: 'Medical Card', display_order: 3 },
   { question: 'How much can I purchase at once?', answer: 'PA patients may buy up to a 90-day supply per transaction. Our staff will help you stay within your legal daily and 90-day limits.', category: 'Medical Card', display_order: 4 },
